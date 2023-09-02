@@ -1,0 +1,12 @@
+for reference and for further knowlege 
+we have some four important method which plays an important role in react 
+
+1. render
+2. component did mount
+3. component did update
+4. component will unmount
+
+in terms of chronlogy : construtor runs first then render 
+render basically implies rendering of elements or html whcih it has in the form of jsx, we cannot use set state function or method inside of an render 
+it is not allowed
+component did method runs at the last
